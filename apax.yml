@@ -6,7 +6,7 @@ type: lib
 
 targets:
   - "1500"
-  # - plcsim
+  - plcsim
 
 devDependencies:
   "@ax/sdk": ^4.0.0

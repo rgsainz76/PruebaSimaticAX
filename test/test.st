@@ -1,25 +1,26 @@
 USING AxUnit;
 USING MotorLibrary;
 
-NAMESPACE MotorTests
+NAMESPACE Mylib
 
     {TestFixture}
-    CLASS MotorBehaviorTests
+    CLASS Test_Counter
 
-        VAR PROTECTED
-            testInstance : Motor;
+        VAR 
+            CounterInstance : Counter;
         END_VAR
 
         {Test}
-        METHOD PUBLIC StartBehaviorTest
+        METHOD PUBLIC TestCounter_CountUP
             VAR_TEMP
-                result : BOOL;
+                result : INT;
             END_VAR
 
-            result := testInstance.Start();
+            CounterInstance.CountUp();
+            result := CounterInstance.GetValue();
 
-            Assert.Equal(actual := result, expected := FALSE);
-        
+            Assert.Equal(1,result);
+    
         END_METHOD
     END_CLASS
 
