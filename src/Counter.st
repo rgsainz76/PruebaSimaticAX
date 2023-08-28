@@ -1,4 +1,5 @@
 
+USING Simatic.Ax.Conversion;
 NAMESPACE Mylib
 
     CLASS Counter
@@ -24,4 +25,5 @@ NAMESPACE Mylib
 
     END_CLASS
 
+    
 END_NAMESPACE

@@ -34,3 +34,8 @@ scripts:
     - apax build
     - apax export-tialib
     - apax import-tialib
+
+registries:
+  '@simatic-ax': 'https://npm.pkg.github.com/'
+dependencies:
+  "@simatic-ax/conversion": ^4.0.1
