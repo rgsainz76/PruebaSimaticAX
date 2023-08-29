@@ -430,6 +430,37 @@
     "resolved": "https://registry.simatic-ax.siemens.io/@ax/third-party-licenses-build-native/-/third-party-licenses-build-native-10.1.1.tgz",
     "integrity": "sha512-Da+AT0KujH3K9bKf4K4rqPA3Z+a/WDkw9p6328AlrSqgBIUFyUZzOM3eVOwhhjKCnmNAVSmtSp0r7crDFGICTw=="
   },
+  "@ax/trace": {
+    "version": "2.5.0",
+    "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace/-/trace-2.5.0.tgz",
+    "integrity": "sha512-feNJXCNmnk32ds8ppm68yVemL2C4bCRxSMW+jMgBQ6vsBHFxpU2m/QQogLFM1EqRUOger9htEVY1xhBv1WK+Og==",
+    "dependencies": {
+      "@ax/trace-linux-x64": "2.5.0",
+      "@ax/trace-win-x64": "2.5.0"
+    }
+  },
+  "@ax/trace-linux-x64": {
+    "version": "2.5.0",
+    "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace-linux-x64/-/trace-linux-x64-2.5.0.tgz",
+    "integrity": "sha512-SCQcM1kV9osFNFfEtCpextIF8KghQA36fy9xt6BIBH0aLuK6cG+ZbCsnwjbU9ixrheiUmVT6tJ55cCJEY3KDNA==",
+    "os": [
+      "linux"
+    ],
+    "cpu": [
+      "x64"
+    ]
+  },
+  "@ax/trace-win-x64": {
+    "version": "2.5.0",
+    "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace-win-x64/-/trace-win-x64-2.5.0.tgz",
+    "integrity": "sha512-zVfNoZH6VcYi8FuEfEhXdbTq5xcJJTsXicojyfR/NmhnkB8iv2Wt458YKOzBlpgpP/WkiNftD+NMYY6C+YiRBA==",
+    "os": [
+      "win32"
+    ],
+    "cpu": [
+      "x64"
+    ]
+  },
   "@simatic-ax/conversion": {
     "version": "4.0.1",
     "resolved": "https://npm.pkg.github.com/download/@simatic-ax/conversion/4.0.1/18778d6806f16c6f6de03316571a232fe4d5d1f2",

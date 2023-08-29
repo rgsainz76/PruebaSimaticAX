@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=simatic-trace-config-schema 
+name: sampleCount
+jobType: finite
+signals:
+  - "Value"
+sampleCount: 500
+frequency: 1
